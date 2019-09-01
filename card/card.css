@@ -1,0 +1,66 @@
+* {
+    font-family: "13/5Atom Sans", sans-serif;
+}
+.main-content {
+    margin: 10px;
+    padding: 6px;
+    padding-top: 12px;
+}
+#card-grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 50%;
+    position: relative;
+}
+#card-grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.single-card {
+    float: left;
+    width: 30%;
+    margin: 4px;
+}
+.single-card-text {
+    margin: 10%;
+}
+.single-card img {
+    max-width: 100%;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+h4 {
+    padding-left: 6px;
+}
+p {
+    font-size: 18px;
+    padding-left: 12px;
+    max-width: 800px;
+}
+ul {
+    list-style-type: square;
+    font-weight: 700;
+    font-size: 17px;
+}
+@media (min-width:600px) {
+    .single-card {
+        width: 25%;
+    }
+}
+@media (min-width:800px) {
+    .single-card {
+        width: 20%;
+    }
+}
+@media (min-width:1000px) {
+    .single-card {
+        width: 16%;
+    }
+}

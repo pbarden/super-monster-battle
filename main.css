@@ -1,0 +1,81 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "13/5Atom Sans", sans-serif;
+}
+.docstyle {
+    width: 24%;
+    height: 100%;
+    background-color: #121212;
+    float: left;
+    padding: 1%;
+    padding-top: 20%;
+    position: fixed;
+}
+#homelink {
+    font-weight: 800;
+    font-size: 30px;
+    list-style: none;
+    text-align: right;
+}
+.leftnav {
+    font-weight: 800;
+    font-size: 14px;
+    list-style: none;
+    text-align: right;
+}
+a:link {
+    text-decoration: none;
+    color: gold;
+}
+a:visited {
+    text-decoration: none;
+    color: gold;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    text-decoration: none;
+    color: gold;
+}
+#docframe {
+    width: 73%;
+    height: 100%;
+    float: right;
+    overflow: scroll;
+    border: none;
+}
+.main-content {
+    margin: 15px;
+    padding: 6px;
+}
+@media (min-width:550px) {
+    .leftnav {
+        font-size: 18px;
+    }
+    #homelink {
+        font-size: 34px;
+    }
+}
+@media (min-width:700px) {
+    .leftnav {
+        font-size: 22px;
+    }
+    #homelink {
+        font-size: 42px;
+    }
+}
+@media (min-width:850px) {
+    .leftnav {
+        font-size: 26px;
+    }
+    #homelink {
+        font-size: 50px;
+    }
+}
